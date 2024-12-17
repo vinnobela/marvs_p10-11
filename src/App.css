@@ -1,0 +1,10 @@
+body {
+    background-image: url('/wallpaper.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+  }
+
+ .card-body {
+    background-image: url('logo.jpg');
+ }

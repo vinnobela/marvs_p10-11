@@ -1,0 +1,55 @@
+/* sales.css */
+.sales-container {
+    padding: 20px;
+    text-align: center;
+}
+
+.sales-container h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #000000; /* Blue color */
+}
+
+.sales-container p {
+    font-size: 1.1rem;
+    margin-bottom: 30px;
+    color: #555;
+}
+
+.sales-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.sales-item {
+    width: 250px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.sales-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.sales-item h3 {
+    font-size: 1.2rem;
+    margin: 10px 0;
+}
+
+.sales-item p {
+    font-size: 1rem;
+    color: #666;
+}
+
+.sales-item .price {
+    font-size: 1.5rem;
+    color: #28a745; /* Green color */
+    margin-top: 10px;
+}

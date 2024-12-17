@@ -1,0 +1,62 @@
+/* brands.css */
+.brands-container {
+    padding: 20px;
+    text-align: center;
+}
+
+.brands-container h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #000000;
+}
+
+.brands-container p {
+    font-size: 1.1rem;
+    margin-bottom: 30px;
+    color: #555;
+}
+
+.brand-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.brand-item {
+    width: 250px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    background-color: #fff;
+    transition: transform 0.3s ease;
+}
+
+.brand-item:hover {
+    transform: translateY(-5px);
+}
+
+.brand-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.brand-item h3 {
+    font-size: 1.2rem;
+    margin: 10px 0;
+    color: #333;
+}
+
+.brand-item p {
+    font-size: 1rem;
+    color: #666;
+}
+
+.brand-item .rating {
+    font-size: 1.3rem;
+    color: #f39c12; /* Yellow color for rating stars */
+    margin-top: 10px;
+}
